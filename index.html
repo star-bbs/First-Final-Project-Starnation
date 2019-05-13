@@ -5,14 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>What in Starnation</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./src/index.css">
 </head>
 <body>
     <header>
-        <h1>What in Starnation</h1>
+        <h1>What in Starnation?</h1>
     </header>
     <main>
-        
+        <section class="speech-bubble">
+            The stars are missing!  Will you help me find my friends?
+        </section>
+        <section>
+            <form id="index-form">
+                <label for="yes" class="radio-button">  <!-- TODO: might need to re-check if labels need to be moved later-->
+                    <input required id="yes" type="radio" name="first-choice" value="yes">
+                    Yes
+                </label>
+
+                <label for="no" class="radio-button">
+                    <input required id="no" type="radio" name="first-choice" value="no">
+                    No
+                </label>
+                <div>
+                    <button>Help the Moon</button>
+                </div>
+            </form>
+        </section>
     </main>
 </body>
 </html>
