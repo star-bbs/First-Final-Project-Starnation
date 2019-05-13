@@ -3,7 +3,10 @@
 body {
     font-family: 'Kodchasan', sans-serif;
     color: #DBE7DA;
-    background-color: #40545E;
+    background-color: black;
+    background-image: URL('../assets/background-static2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
     text-align: center;
 }
 
@@ -15,30 +18,19 @@ h1 {
 /* this is our sppech bubble */
 .speech-bubble {
     position: relative;
-    background: #7797a1;
+    background: rgba(20, 23, 38, .3);
     border-radius: .4em;
     width: 250px;
-    height: 200px;
+    height: 175px;
     display: inline-block;
     font-size: 1.5em;
     padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
     margin-bottom: 25px;
+    border: solid 1px white;
 }
 
-.speech-bubble:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 50%;
-    width: 0;
-    height: 0;
-    border: 55px solid transparent;
-    border-left-color: #7797a1;
-    border-right: 0;
-    border-top: 0;
-    margin-top: -27.5px;
-    margin-right: -55px;
-}
 .radio-button {
     font-size: 1.5em;
 
@@ -51,6 +43,6 @@ button {
     font-size: 1.2em;
     color: #40545E;
     border-radius: 6px;
-    box-shadow: inset 0px 2px 0px 0px #40545E;
+    box-shadow: inset 0px 2px 0px 0px rgb(20, 23, 38);
     margin-top: 50px;
 }
