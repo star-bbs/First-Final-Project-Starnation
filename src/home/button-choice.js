@@ -1,6 +1,6 @@
 function buttonChoice(form) {
     console.log(form);
-    if(form.get('firstChoice') === 'no') {
+    if(form.get('first-choice') === 'no') {
         alert('Why you gotta be like that?');
         return 'checked no';
     } else {
@@ -9,3 +9,5 @@ function buttonChoice(form) {
     }
 }
 export default buttonChoice;
+
+//TODO: check window.location path? call function in index.js
