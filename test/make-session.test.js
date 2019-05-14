@@ -1,13 +1,8 @@
+import makeSession from '../src/home/make-session.js';
 const test = QUnit.test;
 
 QUnit.module('make session test');
 
-function makeSession(formData) {
-    const session = {
-        key: formData.get('key') 
-    }
-    return session;
-}
 
 test('create session object from form data', (assert) => {
     // arrange
