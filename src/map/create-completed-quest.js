@@ -11,6 +11,5 @@ function createCompletedQuest(quest) {
     span.style.left = quest.map.left;
     span.appendChild(image);
     return span;
-
 }
 export default createCompletedQuest;

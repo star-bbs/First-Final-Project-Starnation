@@ -3,7 +3,6 @@ const test = QUnit.test;
 
 QUnit.module('make session test');
 
-
 test('create session object from form data', (assert) => {
     // arrange
 

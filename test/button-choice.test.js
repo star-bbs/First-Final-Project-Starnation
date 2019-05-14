@@ -2,8 +2,6 @@ import buttonChoice from '../src/home/button-choice.js';
 
 const test = QUnit.test;
 
-
-
 test('make no alert', function(assert) {
     //Arrange
     // Set up your parameters and expectations

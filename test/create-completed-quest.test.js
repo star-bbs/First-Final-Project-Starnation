@@ -3,7 +3,6 @@ const test = QUnit.test;
 
 QUnit.module('create completed quest link');
 
-
 test('create quest link', function(assert) {
     //Arrange
     // Set up your parameters and expectations

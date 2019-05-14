@@ -44,5 +44,5 @@ const navajo = {
 
 };
 
-const quests = [];
+const quests = [navajo];
 export default quests;

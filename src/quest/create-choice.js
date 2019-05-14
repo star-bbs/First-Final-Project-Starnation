@@ -1,7 +1,7 @@
-
 function createChoice(questChoice) {
-    const choiceId = questChoice.choices[0].id;
-    const choiceDescription = questChoice.choices[0].description;
+    console.log(questChoice);
+    const choiceId = questChoice.id;
+    const choiceDescription = questChoice.description;
     const label = document.createElement('label');
     const input = document.createElement('input');
 

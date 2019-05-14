@@ -10,15 +10,15 @@
 </head>
 <body>
     <header>
-        <h1>Navajo Constellations</h1>
+        <h1 id="title">Navajo Constellations</h1>
     </header>
     <main>
-        <section class="speech-bubble">
+        <section id="description" class="speech-bubble">
             The word for Constellations in Navajo is "So' Dine'e" or "Star People". 
         </section>
         <section>
             <form id="quest-form">
-                <label for="northstar" class="radio-button">
+                <!-- <label for="northstar" class="radio-button">
                     <input required id="northstar" type="radio" name="navajo" value="northstar">
                     Northern Fire
                 </label>
@@ -29,12 +29,16 @@
                 <label for="coyote" class="radio-button">
                     <input required id="coyote" type="radio" name="navajo" value="coyote">
                     Coyote Star
-                </label>
+                </label> -->
                 <div>
                     <button>Shine On!</button>
                 </div>
+                <p id="result" class="hidden">
+
+                </p>
             </form>
         </section>
     </main>
+    <script type="module" src="/src/quest/quest.js"></script>
 </body>
 </html>
