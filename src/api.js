@@ -1,4 +1,4 @@
-import quest from './quest/quest-data.js';
+import quests from './quest/quest-data.js';
 
 const api = {
     storage: localStorage,
@@ -11,5 +11,9 @@ const api = {
         if(!json) return null;
         const session = JSON.parse(json);
         return session;
+    },
+    getQuests() {
+        return quests;
     }
 }
+export default api;
