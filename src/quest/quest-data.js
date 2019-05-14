@@ -17,7 +17,8 @@ const indigenous = {
             Nahookos Biko, or Northern Fire, is also known as the North Star
             surrounded by four other stars. It represents the fire in the 
             center of the hogan, or home. 
-        `
+        `,
+        constellation: 'northstar'
     }, {
         id: 'rabbit',
         description: 'Rabbit Tracks',
