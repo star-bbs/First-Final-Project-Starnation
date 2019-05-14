@@ -7,15 +7,15 @@ test('create quest link', function(assert) {
     //Arrange
     // Set up your parameters and expectations
     const quest = {
-        id: 'indigenous',
-        image: 'indigenous.png',
+        id: 'navajo',
+        image: 'navajo.png',
         map: {
             top: '40%',
             left: '72%'
         }
     };
     
-    const expected = '<a class="quest" href="quest.html?id=indigenous" style="position: fixed; top: 40%; left: 72%;"><img src="./assets/indigenous.png"></a>';
+    const expected = '<a class="quest" href="quest.html?id=navajo" style="position: fixed; top: 40%; left: 72%;"><img src="./assets/navajo.png"></a>';
     //Act 
     // Call the function you're testing and set the result to a const
     const result = createQuestLink(quest);

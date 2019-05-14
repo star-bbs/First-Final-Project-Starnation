@@ -1,5 +1,5 @@
-const indigenous = {
-    id: 'indigenous',
+const navajo = {
+    id: 'navajo',
     title: 'Navajo Constellations',
     map: {
         top: '40%',
@@ -18,7 +18,6 @@ const indigenous = {
             surrounded by four other stars. It represents the fire in the 
             center of the hogan, or home. 
         `,
-        constellation: 'northstar'
     }, {
         id: 'rabbit',
         description: 'Rabbit Tracks',
@@ -32,6 +31,7 @@ const indigenous = {
         `
     }, {
         id: 'coyote',
+
         description: 'Coyote Star',
         result: `
             Called So' Tsoh in Navajo, which literally translates to "Big Star",
@@ -44,5 +44,5 @@ const indigenous = {
 
 };
 
-const quests = [indigenous];
+const quests = [];
 export default quests;
