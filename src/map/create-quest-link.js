@@ -6,6 +6,7 @@ function createQuestLink(quest) {
     const image = document.createElement('img');
     image.setAttribute('src', './assets/' + quest.id + '.png');
     link.id = quest.id;
+    
 
     link.href = 'quest.html?' + searchParams.toString();
     link.style.position = 'fixed';

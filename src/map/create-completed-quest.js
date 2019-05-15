@@ -1,11 +1,11 @@
 import api from '../api.js';
+import createQuestLink from './create-quest-link.js';
 
 function createCompletedQuest(quest) {
     const session = api.getStars();
-    const link = document.getElementById(quest.id);
+    // const link = document.getElementById(quest.id);
+    const link = createQuestLink(quest);
     link.classList.add('completed');
-
-    console.log('test', link);
     return link;
 }
 export default createCompletedQuest;
