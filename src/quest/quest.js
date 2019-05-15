@@ -33,6 +33,6 @@ questForm.addEventListener('submit', (event) => {
     console.log(session);
     questForm.classList.add('hidden');
     result.classList.remove('hidden');
-    resultDescription.textContent = choice.result;
+    description.textContent = choice.result;
 
 })
