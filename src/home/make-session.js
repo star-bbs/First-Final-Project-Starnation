@@ -3,7 +3,8 @@
 function makeSession(formData) {
     const session = {
         button: formData.get('first-choice'),
-        constellations: [5],
+        constellations: [],
+        completed: {}
     }
     return session;
 }

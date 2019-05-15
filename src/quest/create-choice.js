@@ -1,5 +1,4 @@
 function createChoice(questChoice) {
-    console.log(questChoice);
     const choiceId = questChoice.id;
     const choiceDescription = questChoice.description;
     const label = document.createElement('label');
