@@ -1,10 +1,9 @@
-import buttonChoice from "./button-choice.js";
 
-//TODO: get help with setting keys and values for quest data
+//TODO: FIGURE OUT WHY CONSTELLATIONS = 0 and not []
 function makeSession(formData) {
     const session = {
         button: formData.get('first-choice'),
-        constellations: [],
+        constellations: [5],
     }
     return session;
 }

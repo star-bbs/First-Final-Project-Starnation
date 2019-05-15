@@ -20,3 +20,12 @@ for (let i = 0; i < quest.choices.length; i++) {
     const questions = createChoice(choice);
     questForm.appendChild(questions);   
 }
+questForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const formData = new FormData(questForm);
+    const choiceId = formData.get('one');
+    const choice = api.getQuest(quest.choices, choiceId);
+    
+
+
+})
