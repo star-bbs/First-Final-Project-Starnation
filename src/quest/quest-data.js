@@ -12,6 +12,7 @@ const navajo = {
     `,
     choices: [{
         id: 'northstar',
+        name: 'one',
         description: 'Northern Fire',
         result: `
             Nahookos Biko, or Northern Fire, is also known as the North Star
@@ -20,6 +21,7 @@ const navajo = {
         `,
     }, {
         id: 'rabbit',
+        name: 'one',
         description: 'Rabbit Tracks',
         result: `
             This constellation, which is part of the tail if "Scorpius", was 
@@ -31,7 +33,7 @@ const navajo = {
         `
     }, {
         id: 'coyote',
-
+        name: 'one',
         description: 'Coyote Star',
         result: `
             Called So' Tsoh in Navajo, which literally translates to "Big Star",

@@ -12,7 +12,6 @@ const quests = api.getQuests();
 const questId = searchParams.get('id');
 const quest = api.getQuest(quests, questId);
 
-
 title.textContent = quest.title;
 description.textContent = quest.description;
 console.log(questId);

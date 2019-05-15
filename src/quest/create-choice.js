@@ -11,7 +11,7 @@ function createChoice(questChoice) {
     input.required = true;
     input.id = choiceId;
     input.type = 'radio';
-    input.name = questChoice.id; 
+    input.name = questChoice.name; 
     input.value = choiceId;
     label.appendChild(input);
     return label;
