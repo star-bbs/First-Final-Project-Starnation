@@ -1,11 +1,13 @@
 import createQuestLink from './create-quest-link.js';
 import api from '../api.js';
-import loadProfile from './load-profile.js';
+import profile from './load-profile.js';
+import createCompletedQuest from './create-completed-quest.js';
 
-loadProfile();
+profile.loadAll();
 
 const parentElement = document.getElementById('parent-element');
 const quests = api.getQuests();
+const session = api.getStars();
 
 for(let i = 0; i < quests.length; i++) {
     const quest = quests[i];

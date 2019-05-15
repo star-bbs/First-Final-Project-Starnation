@@ -19,7 +19,6 @@ test('takes an id and returns quest', function(assert) {
     //Arrange
     // Set up your parameters and expectations
     const expectedQuest = quests[0];
-    console.log(expectedQuest);
     //Act 
     // Call the function you're testing and set the result to a const
 

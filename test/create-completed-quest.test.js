@@ -15,7 +15,7 @@ test('create quest link', function(assert) {
         }
     };
     
-    const expected = '<span class="completed-quest" style="position: fixed; top: 40%; left: 72%;"><img src="./assets/navajo.png"></span>';
+    const expected = '<a class="completed" style="position: fixed; top: 40%; left: 72%;"><img src="./assets/navajo.png"></a>';
     //Act 
     // Call the function you're testing and set the result to a const
     const result = createCompletedQuest(quest);

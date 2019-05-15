@@ -1,16 +1,21 @@
 import api from '../api.js';
 
-function loadProfile() {
-    const stars = document.getElementById('stars');
-    const session = api.getStars();
-    const star = document.createElement('img');
-    star.src = '../../assets/single-star.png';
+const stars = document.getElementById('stars');
+const profile = {
 
-    for (let i = 0; i < session.constellations.length; i++) {
-        const element = session.constellations[i];
-        stars.appendChild(star);
-        console.log(i);
+    loadAll() {
+        const session = api.getStars();
         
+        for (let i = 0; i < session.constellations.length; i++) {
+            const constellation = session.constellations[i];
+            profile.loadConstellation(constellation);
+        }
+    },
+
+    loadConstellation(constellation) {
+        const star = document.createElement('img');
+        star.src = '../../assets/single-star.png';
+        stars.appendChild(star);
     }
 }
-export default loadProfile;
+export default profile;

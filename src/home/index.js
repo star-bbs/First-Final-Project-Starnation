@@ -11,5 +11,4 @@ helpMoon.addEventListener('submit', (event) => {
 
     api.setStars(session); 
     buttonChoice(formData);
-    console.log(session);
 });
