@@ -1,7 +1,9 @@
 import api from '../api.js';
 import createChoice from '../quest/create-choice.js';
 import scoreQuest from './score-quest.js';
-//IMPORT LOAD PROFILE FUNCTION ONCE WE MAKE IT
+import loadProfile from '../map/load-profile.js';
+
+loadProfile();
 
 const title = document.getElementById('title');
 const description = document.getElementById('description');
@@ -34,5 +36,5 @@ questForm.addEventListener('submit', (event) => {
     questForm.classList.add('hidden');
     result.classList.remove('hidden');
     description.textContent = choice.result;
-
+    loadProfile();
 })
