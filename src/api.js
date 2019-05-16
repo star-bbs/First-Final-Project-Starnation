@@ -1,5 +1,4 @@
 import quests from './quest/quest-data.js';
-import session from '../src/home/session.js';
 
 const api = {
     storage: localStorage,

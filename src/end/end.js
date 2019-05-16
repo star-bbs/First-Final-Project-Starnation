@@ -1,3 +1,5 @@
 import api from '../api.js';
-import profile from '../map/load-profile.js';
+import populateSky from './populate-sky.js';
 
+const session = api.getStars();
+populateSky(session);
