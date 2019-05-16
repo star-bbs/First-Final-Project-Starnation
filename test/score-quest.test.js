@@ -4,8 +4,7 @@ const test = QUnit.test;
 QUnit.module('score quest test');
 
 test('score quest test', function(assert) {
-    //Arrange
-    // Set up your parameters and expectations
+
     const user = {
         button: 'yes',
         constellations: [],
@@ -25,9 +24,7 @@ test('score quest test', function(assert) {
             navajo: true
         }
     };
-    //Act 
     
     const result = scoreQuest(user, questId, choice);
-    //Assert
     assert.deepEqual(result, expected);
 });

@@ -4,8 +4,7 @@ const test = QUnit.test;
 QUnit.module('create completed quest link');
 
 test('create completed quest', function(assert) {
-    //Arrange
-    // Set up your parameters and expectations
+    
     const quest = {
         id: 'navajo',
         image: 'navajo.png',
@@ -15,11 +14,7 @@ test('create completed quest', function(assert) {
         }
     };
     
-    const expected = '<a class="quest completed" id="navajo" href="quest.html?id=navajo" style="position: fixed; top: 40%; left: 72%;"><img src="./assets/navajo.png"></a>'
-    
-    //Act 
-    // Call the function you're testing and set the result to a const
+    const expected = '<a class="quest completed" id="navajo" href="quest.html?id=navajo" style="position: fixed; top: 40%; left: 72%;"><img src="./assets/navajo.png"></a>';
     const result = createCompletedQuest(quest);
-    //Assert
     assert.equal(result.outerHTML, expected);
 });

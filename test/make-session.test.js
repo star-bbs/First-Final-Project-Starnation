@@ -5,19 +5,15 @@ QUnit.module('make session test');
 
 test('create session object from form data', (assert) => {
     
-    // arrange
     const formData = new FormData();
     formData.set('key', 'value');
 
-    // act
     const sessionObj = makeSession(formData);
     const expected = {
-        key: 'value'
+        button: null,
+        completed: {},
+        constellations: []
     };
 
-    // assert
-    const result = 
-    // what your user object should look like
-    
     assert.deepEqual(sessionObj, expected);
 });
