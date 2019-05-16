@@ -1,5 +1,5 @@
-const indigenous = {
-    id: 'indigenous',
+const navajo = {
+    id: 'navajo',
     title: 'Navajo Constellations',
     map: {
         top: '40%',
@@ -12,6 +12,7 @@ const indigenous = {
     `,
     choices: [{
         id: 'northstar',
+        name: 'choice',
         description: 'Northern Fire',
         result: `
             Nahookos Biko, or Northern Fire, is also known as the North Star
@@ -20,6 +21,7 @@ const indigenous = {
         `
     }, {
         id: 'rabbit',
+        name: 'choice',
         description: 'Rabbit Tracks',
         result: `
             This constellation, which is part of the tail of "Scorpius", was 
@@ -31,6 +33,7 @@ const indigenous = {
         `
     }, {
         id: 'coyote',
+        name: 'choice',
         description: 'Coyote Star',
         result: `
             Called So' Tsoh in Navajo, which literally translates to "Big Star",
@@ -45,6 +48,8 @@ const greek = {
     id: 'greek',
     title: 'Ancient Greek Constellations',
     map: {
+        top: '50%',
+        left: '40%'
     },
     description: `
     There is only limited information on ancient Greek constellations, with 
@@ -55,6 +60,7 @@ const greek = {
     `,
     choices: [{
         id: 'dog',
+        name: 'choice',
         description: 'Sirius, The Dog Star',
         result: `
         The ancient Greeks observed that the appearance of Sirius heralded the 
@@ -66,6 +72,7 @@ const greek = {
         `,
     }, {
         id: 'sisters',
+        name: 'choice',
         descripion: 'Pleiades, The Seven Sisters',
         result: `
         The name of the Pleiades comes from Ancient Greek. It probably 
@@ -79,6 +86,7 @@ const greek = {
         `,
     }, {
         id: 'orion',
+        name: 'choice',
         description: 'Orion',
         result: `
         Orion's current name derives from Greek mythology in which Orion 
@@ -94,6 +102,8 @@ const chinese = {
     id: 'chinese',
     title: 'Ancient Chinese Constellations',
     map: {
+        top: '30%',
+        left: '80%'
     },
     description: `
     Ancient China had a long tradition of observing celestial phenomena. 
@@ -106,6 +116,7 @@ const chinese = {
     `,
     choices: [{
         id: 'andromeda',
+        name: 'choice',
         description: 'The Immortal Woman',
         result: `
         The modern constellation Andromeda lies across two of the quadrants,
@@ -116,6 +127,7 @@ const chinese = {
         Fairy constellation".
         `,
         id: 'cassiopeia',
+        name: 'choice',
         descripion: 'The Immortal Queen',
         result: `
         The modern constellation Cassiopeia lies across two of the quadrants 
@@ -127,6 +139,7 @@ const chinese = {
         `,
     }, {
         id: 'cygnus',
+        name: 'choice',
         description: 'The Swan',
         result: `
         According to traditional Chinese uranography, the modern constellation 
@@ -136,3 +149,5 @@ const chinese = {
         `,
     }]
 };
+const quests = [navajo, ];
+export default quests;
