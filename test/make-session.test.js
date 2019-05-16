@@ -12,7 +12,9 @@ test('create session object from form data', (assert) => {
     // act
     const sessionObj = makeSession(formData);
     const expected = {
-        key: 'value'
+        button: null,
+        completed: {},
+        constellations: []
     };
 
     // assert
