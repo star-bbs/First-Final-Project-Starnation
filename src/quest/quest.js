@@ -37,5 +37,5 @@ questForm.addEventListener('submit', (event) => {
     questForm.classList.add('hidden');
     result.classList.remove('hidden');
     description.textContent = choice.result;
-    profile.loadConstellation(choice.id);
+    profile.loadConstellation();
 });
