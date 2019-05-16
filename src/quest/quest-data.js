@@ -2,7 +2,7 @@ const navajo = {
     id: 'navajo',
     title: 'Navajo Constellations',
     map: {
-        top: '35%',
+        top: '40%',
         left: '72%'
     },
     description: `

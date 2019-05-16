@@ -2,12 +2,15 @@
     font-size: .8em;
 }
 
+h2 {
+    margin-top: 30px;
+}
 
 #first-description {
     position: relative;
     border-radius: .4em;
     width: 250px;
-    height: 100px;
+    height: 125px;
     display: inline-block;
     font-size: 1.2em;
     padding: 30px;
