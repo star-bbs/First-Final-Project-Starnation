@@ -1,4 +1,3 @@
-//TODO: update user object
 const session = {
     navajo: 'incomplete',
 };
