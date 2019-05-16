@@ -102,8 +102,8 @@ const chinese = {
     id: 'chinese',
     title: 'Ancient Chinese Constellations',
     map: {
-        top: '30%',
-        left: '80%'
+        top: '55%',
+        left: '35%'
     },
     description: `
     Ancient China had a long tradition of observing celestial phenomena. 
@@ -126,9 +126,10 @@ const chinese = {
         in modern Chinese is Xiān Nǚ Zuò, meaning "The Immortal Woman / 
         Fairy constellation".
         `,
+    }, {
         id: 'cassiopeia',
         name: 'choice',
-        descripion: 'The Immortal Queen',
+        description: 'The Immortal Queen',
         result: `
         The modern constellation Cassiopeia lies across two of the quadrants 
         symbolized by the Black Tortoise of the North (Běi Fāng Xuán Wǔ), 
