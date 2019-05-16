@@ -3,7 +3,6 @@ import api from '../api.js';
 const stars = document.getElementById('stars');
 const profile = {
 
-    //TODO: created dumb console logs-- our (constellation) param is...useless???? 
     loadConstellation() {
         const star = document.createElement('img');
         star.src = '../../assets/single-star.png';

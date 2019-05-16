@@ -9,8 +9,7 @@ const quests = [
 ];
 
 test('has completed all quests', function(assert) {
-    //Arrange
-    // Set up your parameters and expectations
+    
     const session = {
         completed: {
             one: true,
@@ -20,8 +19,5 @@ test('has completed all quests', function(assert) {
     };
 
     const result = hasCompletedAllQuests(quests, session);
-
-    // Call the function you're testing and set the result to a const
-    //Assert
     assert.equal(result, true);
 });
