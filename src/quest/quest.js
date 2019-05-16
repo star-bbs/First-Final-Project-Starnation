@@ -10,11 +10,6 @@ const description = document.getElementById('description');
 const questForm = document.getElementById('quest-form');
 const radio = document.getElementById('radio');
 const result = document.getElementById('result');
-<<<<<<< HEAD
-const audio = document.getElementById('audio');
-const resultDescription = document.getElementById('result-description');
-=======
->>>>>>> adc10b596e61ac51a29c6e1c38f8985dd0d72133
 
 const searchParams = new URLSearchParams(window.location.search);
 const quests = api.getQuests();
