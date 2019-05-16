@@ -18,8 +18,6 @@ test('create session object from form data', (assert) => {
     };
 
     // assert
-    const result = 
     // what your user object should look like
-    
     assert.deepEqual(sessionObj, expected);
 });

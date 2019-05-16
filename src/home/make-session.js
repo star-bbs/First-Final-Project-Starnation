@@ -3,7 +3,7 @@ function makeSession(formData) {
         button: formData.get('first-choice'),
         constellations: [],
         completed: {}
-    }
+    };
     return session;
 }
 export default makeSession;
