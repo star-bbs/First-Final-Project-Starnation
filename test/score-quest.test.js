@@ -3,7 +3,6 @@ const test = QUnit.test;
 
 QUnit.module('score quest test');
 
-
 test('score quest test', function(assert) {
     //Arrange
     // Set up your parameters and expectations

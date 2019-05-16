@@ -9,9 +9,7 @@ function createCompletedQuest(quest) {
     return link;
 }
 export default createCompletedQuest;
-
-
-
+//TODO: delete?
 // const span = document.createElement('span');
 // span.classList.add('completed-quest');
 // const searchParams = new URLSearchParams();
