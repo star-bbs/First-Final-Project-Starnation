@@ -65,3 +65,12 @@ img:hover {
 .hidden {
     display: none;
 }
+
+footer {
+    position: absolute;
+    bottom: 20px;
+}
+
+a {
+    color: #DBE7DA;
+}
