@@ -6,7 +6,6 @@ import hasCompletedAllQuests from './has-completed-all-quests.js';
 
 profile.loadAll();
 
-
 const parentElement = document.getElementById('parent-element');
 const quests = api.getQuests();
 const session = api.getStars();

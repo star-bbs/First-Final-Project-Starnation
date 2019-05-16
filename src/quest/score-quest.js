@@ -1,5 +1,3 @@
-import api from '../api.js';
-
 function scoreQuest(user, questId, choice) {
     user.completed[questId] = true;
     user.constellations.push(choice.id); 
