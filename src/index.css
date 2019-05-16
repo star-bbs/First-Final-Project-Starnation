@@ -4,7 +4,8 @@ body {
     font-family: 'Kodchasan', sans-serif;
     color: #DBE7DA;
     background-color: black;
-    background-image: URL('../assets/background.jpg');
+    background-image: URL('../assets/background-static2.png');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100vh;
     text-align: center;
@@ -15,25 +16,20 @@ h1 {
     font-size: 3em;
 }
 
-/* this is our sppech bubble */
-.speech-bubble {
+#description {
     position: relative;
-    background: rgba(20, 23, 38, .3);
     border-radius: .4em;
-    width: 250px;
-    height: 175px;
+    width: 500px;
+    height: 250px;
     display: inline-block;
-    font-size: 1.5em;
-    padding-top: 50px;
-    padding-right: 20px;
-    padding-left: 20px;
+    font-size: 1.2em;
+    padding: 20px;
     margin-bottom: 25px;
     border: solid 1px white;
 }
 
 .radio-button {
     font-size: 1.5em;
-
 }
 
 button {
@@ -64,6 +60,10 @@ img:hover {
 
 .hidden {
     display: none;
+}
+
+form {
+    margin-top: 30px;
 }
 
 footer {

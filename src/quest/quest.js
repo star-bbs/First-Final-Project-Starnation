@@ -8,6 +8,7 @@ profile.loadAll();
 const title = document.getElementById('title');
 const description = document.getElementById('description');
 const questForm = document.getElementById('quest-form');
+const radio = document.getElementById('radio');
 const result = document.getElementById('result');
 <<<<<<< HEAD
 const audio = document.getElementById('audio');
@@ -26,7 +27,7 @@ description.textContent = quest.description;
 for(let i = 0; i < quest.choices.length; i++) {
     const choice = quest.choices[i];
     const questions = createChoice(choice);
-    questForm.appendChild(questions);
+    radio.appendChild(questions);   
 }
 
 questForm.addEventListener('submit', (event) => {
