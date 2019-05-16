@@ -19,7 +19,7 @@ const quest = api.getQuest(quests, questId);
 
 title.textContent = quest.title;
 description.textContent = quest.description;
-for (let i = 0; i < quest.choices.length; i++) {
+for(let i = 0; i < quest.choices.length; i++) {
     const choice = quest.choices[i];
     const questions = createChoice(choice);
     questForm.appendChild(questions);   
@@ -30,7 +30,6 @@ questForm.addEventListener('submit', (event) => {
 
     const choiceId = formData.get('choice');
     const choice = api.getQuest(quest.choices, choiceId);
-    console.log(choice);
 
     const session = api.getStars();
     scoreQuest(session, questId, choice);
@@ -39,4 +38,4 @@ questForm.addEventListener('submit', (event) => {
     result.classList.remove('hidden');
     description.textContent = choice.result;
     profile.loadConstellation(choice.id);
-})
+});
