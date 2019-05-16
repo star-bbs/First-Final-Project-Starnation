@@ -136,3 +136,5 @@ const chinese = {
         `,
     }]
 };
+const quests = [indigenous, greek, chinese];
+export default quests;
