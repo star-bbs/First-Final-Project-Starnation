@@ -40,4 +40,4 @@ questForm.addEventListener('submit', (event) => {
     description.textContent = choice.result;
     profile.loadConstellation(choice.id);
     // audio.src = 'assets/'
-})
+});
