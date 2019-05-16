@@ -26,8 +26,10 @@ for (let i = 0; i < quest.choices.length; i++) {
 questForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const formData = new FormData(questForm);
-    const choiceId = formData.get('one');
+    //TODO: CHANGED formData.get('one') to formData.get('choice')
+    const choiceId = formData.get('choice');
     const choice = api.getQuest(quest.choices, choiceId);
+    console.log(choice);
 
     const session = api.getStars();
     scoreQuest(session, questId, choice);
