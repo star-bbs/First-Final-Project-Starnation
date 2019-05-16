@@ -9,8 +9,6 @@ const title = document.getElementById('title');
 const description = document.getElementById('description');
 const questForm = document.getElementById('quest-form');
 const result = document.getElementById('result');
-//TODO: what does this do???
-//const resultDescription = document.getElementById('result-description');
 
 const searchParams = new URLSearchParams(window.location.search);
 const quests = api.getQuests();
