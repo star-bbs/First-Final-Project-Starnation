@@ -11,13 +11,9 @@ const parentElement = document.getElementById('parent-element');
 const quests = api.getQuests();
 const session = api.getStars();
 
-<<<<<<< HEAD
 if(hasCompletedAllQuests(quests, session)) {
     window.location = './end.html';
 }
-=======
-// const questImg = document.getElementById('')
->>>>>>> 5a928ee8178fc05638e8d740c8506572a667886d
 
 for(let i = 0; i < quests.length; i++) {
     const quest = quests[i];
