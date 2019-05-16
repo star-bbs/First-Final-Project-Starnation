@@ -48,8 +48,8 @@ const greek = {
     id: 'greek',
     title: 'Ancient Greek Constellations',
     map: {
-        top: '50%',
-        left: '40%'
+        top: '15%',
+        left: '4%'
     },
     description: `
     There is only limited information on ancient Greek constellations, with 
