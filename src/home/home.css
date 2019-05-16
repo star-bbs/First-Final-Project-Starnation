@@ -1,23 +1,22 @@
-img {
-    width: 75%;
+#first-line {
+    font-size: .8em;
 }
 
-p>img {
-    width: auto;
-}
 
-.completed {
-    pointer-events: none;
-}
-
-#map-description {
+#first-description {
     position: relative;
     border-radius: .4em;
     width: 250px;
-    height: 80px;
+    height: 100px;
     display: inline-block;
     font-size: 1.2em;
     padding: 30px;
     border: solid 1px white;
     margin-bottom: 25px;
+}
+
+#about-us {
+    display: flex;
+    margin-top: 60px;
+    align-content: flex-start;
 }
