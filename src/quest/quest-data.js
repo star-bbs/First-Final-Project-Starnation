@@ -54,7 +54,7 @@ const greek = {
     description: `
     There is only limited information on ancient Greek constellations, with 
     some fragmentary evidence being found in the Works and Days of the Greek 
-    poet Hesiod, who mentioned the "heavenly bodies".[24] Greek astronomy 
+    poet Hesiod, who mentioned the "heavenly bodies". Greek astronomy 
     essentially adopted the older Babylonian system in the Hellenistic era, 
     first introduced to Greece by Eudoxus of Cnidus in the 4th century BC.
     `,
@@ -65,15 +65,15 @@ const greek = {
         result: `
         The ancient Greeks observed that the appearance of Sirius heralded the 
         hot and dry summer and feared that it caused plants to wilt, men to 
-        weaken, and women to become aroused.[30] Due to its brightness, Sirius 
+        weaken, and women to become aroused. Due to its brightness, Sirius 
         would have been noted to twinkle more in the unsettled weather conditions 
         of early summer. To Greek observers, this signified certain emanations 
         which caused its malignant influence. 
-        `,
+        `
     }, {
         id: 'sisters',
         name: 'choice',
-        descripion: 'Pleiades, The Seven Sisters',
+        description: 'Pleiades, The Seven Sisters',
         result: `
         The name of the Pleiades comes from Ancient Greek. It probably 
         derives from plein, "to sail", because of the cluster's importance in 
@@ -83,7 +83,7 @@ const greek = {
         deriving from that of their mother Pleione and effectively meaning "daughters 
         of Pleione". In reality, the name of the star cluster almost certainly came 
         first and Pleione was invented to explain it.
-        `,
+        `
     }, {
         id: 'orion',
         name: 'choice',
