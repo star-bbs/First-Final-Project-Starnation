@@ -9,7 +9,8 @@ const title = document.getElementById('title');
 const description = document.getElementById('description');
 const questForm = document.getElementById('quest-form');
 const result = document.getElementById('result');
-const resultDescription = document.getElementById('result-description');
+//TODO: what does this do???
+//const resultDescription = document.getElementById('result-description');
 
 const searchParams = new URLSearchParams(window.location.search);
 const quests = api.getQuests();
@@ -26,7 +27,7 @@ for (let i = 0; i < quest.choices.length; i++) {
 questForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const formData = new FormData(questForm);
-    //TODO: CHANGED formData.get('one') to formData.get('choice')
+
     const choiceId = formData.get('choice');
     const choice = api.getQuest(quest.choices, choiceId);
     console.log(choice);
