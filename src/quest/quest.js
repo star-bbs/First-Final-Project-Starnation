@@ -17,11 +17,13 @@ const quest = api.getQuest(quests, questId);
 
 title.textContent = quest.title;
 description.textContent = quest.description;
+
 for(let i = 0; i < quest.choices.length; i++) {
     const choice = quest.choices[i];
     const questions = createChoice(choice);
-    questForm.appendChild(questions);   
+    questForm.appendChild(questions);
 }
+
 questForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const formData = new FormData(questForm);
@@ -35,5 +37,5 @@ questForm.addEventListener('submit', (event) => {
     questForm.classList.add('hidden');
     result.classList.remove('hidden');
     description.textContent = choice.result;
-    profile.loadConstellation(choice.id);
+    profile.loadConstellation();
 });
