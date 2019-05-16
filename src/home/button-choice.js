@@ -8,4 +8,3 @@ function buttonChoice(form) {
     }
 }
 export default buttonChoice;
-//TODO: check window.location path? call function in index.js
