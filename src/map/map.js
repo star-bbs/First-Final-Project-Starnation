@@ -23,16 +23,5 @@ for(let i = 0; i < quests.length; i++) {
     } else {
         link = createQuestLink(quest);
         parentElement.appendChild(link);
-        console.log(link);
     }
 }
-
-// for(let i = 0; i < quests.length; i++) {
-//     const quest = quests[i];
-//     const link = createQuestLink(quest);
-//     parentElement.appendChild(link);
-// }
-
-// if(session.completed[quest.id]) {
-//     link = createCompletedQuest(quest);
-// } 

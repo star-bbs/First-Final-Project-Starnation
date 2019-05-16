@@ -3,10 +3,9 @@ const test = QUnit.test;
 QUnit.module('Has completed all quests function test');
 
 const quests = [
-
-    {id: 'one'},
-    {id: 'two'},
-    {id: 'three'},
+    { id: 'one' },
+    { id: 'two' },
+    { id: 'three' },
 ];
 
 test('has completed all quests', function(assert) {

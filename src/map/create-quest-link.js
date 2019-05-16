@@ -13,5 +13,5 @@ function createQuestLink(quest) {
     link.style.left = quest.map.left;
     link.appendChild(image);
     return link;
-    }
-    export default createQuestLink; 
+}
+export default createQuestLink; 
