@@ -149,5 +149,5 @@ const chinese = {
         `,
     }]
 };
-const quests = [navajo, ];
+const quests = [navajo, greek, chinese];
 export default quests;
