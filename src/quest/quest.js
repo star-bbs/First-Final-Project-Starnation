@@ -9,6 +9,7 @@ const title = document.getElementById('title');
 const description = document.getElementById('description');
 const questForm = document.getElementById('quest-form');
 const result = document.getElementById('result');
+const audio = document.getElementById('audio');
 const resultDescription = document.getElementById('result-description');
 
 const searchParams = new URLSearchParams(window.location.search);
@@ -38,4 +39,5 @@ questForm.addEventListener('submit', (event) => {
     result.classList.remove('hidden');
     description.textContent = choice.result;
     profile.loadConstellation(choice.id);
+    audio.src = 'assets/'
 })

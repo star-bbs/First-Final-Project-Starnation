@@ -2,7 +2,7 @@ const navajo = {
     id: 'navajo',
     title: 'Navajo Constellations',
     map: {
-        top: '40%',
+        top: '35%',
         left: '72%'
     },
     description: `
@@ -48,8 +48,8 @@ const greek = {
     id: 'greek',
     title: 'Ancient Greek Constellations',
     map: {
-        top: '15%',
-        left: '4%'
+        top: '20%',
+        left: '10%'
     },
     description: `
     There is only limited information on ancient Greek constellations, with 
@@ -102,8 +102,8 @@ const chinese = {
     id: 'chinese',
     title: 'Ancient Chinese Constellations',
     map: {
-        top: '55%',
-        left: '35%'
+        top: '60%',
+        left: '38%'
     },
     description: `
     Ancient China had a long tradition of observing celestial phenomena. 
