@@ -10,3 +10,7 @@ button {
 .radio-button {
     display: inherit;
 }
+
+#radio {
+    margin-bottom: 30px;
+}
