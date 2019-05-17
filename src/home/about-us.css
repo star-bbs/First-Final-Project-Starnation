@@ -7,9 +7,18 @@
     flex-wrap: nowrap;
     margin-top: 55px;
 }
+
 .flex-container > div {
     width: 25%;
     text-align: center;
     margin: 5px;
     background-color: rgba(38, 47, 70, .8);
+}
+
+img:hover {
+    transform: none;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
 }
