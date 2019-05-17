@@ -1,4 +1,9 @@
 /* in img we'll set border radius to 100% */
+.photo {
+    height: auto;
+    width: 100px;
+    border-radius: 100%;
+}
 
 /* format links*/
 
