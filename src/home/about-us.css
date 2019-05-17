@@ -1,3 +1,8 @@
 /* in img we'll set border radius to 100% */
+p>img {
+    height: auto;
+    width:
+    border-radius: 100%;
+}
 
 /* format links*/
