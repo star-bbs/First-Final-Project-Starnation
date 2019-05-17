@@ -1,8 +1,9 @@
 /* in img we'll set border radius to 100% */
 .photo {
-    height: auto;
+    height: 105px;
     width: 100px;
     border-radius: 100%;
+    margin-top: 15px;
 }
 
 /* format links*/
@@ -27,3 +28,4 @@ img:hover {
 h2 {
     font-family: 'Lobster', cursive;
 }
+
