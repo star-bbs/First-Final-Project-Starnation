@@ -7,7 +7,6 @@ const profile = {
         const star = document.createElement('img');
         star.src = '../../assets/single-star.png';
         stars.appendChild(star);
-
     },
     loadAll() {
         const session = api.getStars();
