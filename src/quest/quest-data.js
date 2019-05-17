@@ -24,10 +24,10 @@ const navajo = {
         name: 'choice',
         description: 'Rabbit Tracks',
         result: `
-            This constellation, which is part of the tail of "Scorpius", was 
+            This constellation, which is part of the tail of Scorpio, was 
             used by hunters long ago to determine when the traditional hunting
             season would begin. When this constellation remained in one place,
-            deer was not hunted because their young still depend on their mothers
+            deer was not hunted because their young still depended on their mothers
             for nourishment. Only until the star tips to the easy did the hunting
             season 'truly' begin.
         `
@@ -75,12 +75,11 @@ const greek = {
         name: 'choice',
         description: 'Pleiades, The Seven Sisters',
         result: `
-        The name of the Pleiades comes from Ancient Greek. It probably 
-        derives from plein, "to sail", because of the cluster's importance in 
-        delimiting the sailing season in the Mediterranean Sea: "the season of 
-        navigation began with their heliacal rising". However, in mythology the 
-        name was used for the Pleiades, seven divine sisters, the name supposedly 
-        deriving from that of their mother Pleione and effectively meaning "daughters 
+        The name of the Pleiades comes from the Ancient Greek "plein", meaning
+        "to sail", because of the constellation's importance in delimiting the 
+        sailing season in the Mediterranean Sea. In mythology the 
+        name was used for the Pleiades, seven divine sisters. The name supposedly 
+        derived from their mother Pleione and effectively meaning "daughters 
         of Pleione". In reality, the name of the star cluster almost certainly came 
         first and Pleione was invented to explain it.
         `
@@ -90,11 +89,11 @@ const greek = {
         description: 'Orion',
         result: `
         Orion's current name derives from Greek mythology in which Orion 
-        was a gigantic supernaturally strong hunter of ancient times born to Euryale, 
+        was a supernaturally strong hunter of ancient times born to Euryale, 
         a Gorgon, and Poseidon, god of the sea. One myth recounts Gaia's rage at Orion, 
         who dared to say that he would kill every animal on the planet. The angry goddess 
         tried to dispatch Orion with a scorpion. This is given as the reason that the 
-        constellations of Scorpius and Orion are never in the sky at the same time.
+        constellations of Scorpio and Orion are never in the sky at the same time.
         `,
     }]
 };
@@ -121,7 +120,7 @@ const chinese = {
         result: `
         The modern constellation Andromeda lies across two of the quadrants,
         symbolized by the Black Tortoise of the North (Běi Fāng Xuán Wǔ) and
-        the White Tiger of the West (Xī Fāng Bái Hǔ), that divide the sky 
+        the White Tiger of the West (Xī Fāng Bái Hǔ), that divides the sky 
         in traditional Chinese uranography. The name of the western constellation 
         in modern Chinese is Xiān Nǚ Zuò, meaning "The Immortal Woman / 
         Fairy constellation".
