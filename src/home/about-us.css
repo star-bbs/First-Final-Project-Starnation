@@ -1,7 +1,7 @@
 /* in img we'll set border radius to 100% */
-p>img {
+.photo {
     height: auto;
-    width:
+    width: 100px;
     border-radius: 100%;
 }
 
