@@ -3,3 +3,7 @@ section>img {
     width: auto;
     padding: 30px;
 }
+
+#congrats {
+    font-size: 1.5em;
+}
