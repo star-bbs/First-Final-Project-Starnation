@@ -1,7 +1,6 @@
 import createQuestLink from './create-quest-link.js';
 import api from '../api.js';
 import profile from './load-profile.js';
-import createCompletedQuest from './create-completed-quest.js';
 import hasCompletedAllQuests from './has-completed-all-quests.js';
 
 profile.loadAll();
@@ -16,12 +15,9 @@ if(hasCompletedAllQuests(quests, session)) {
 
 for(let i = 0; i < quests.length; i++) {
     const quest = quests[i];
-    let link = null;
 
-    if(session.completed[quest.id]) {
-        link = createCompletedQuest(quest);
-    } else {
-        link = createQuestLink(quest);
+    if(!session.completed[quest.id]) {
+        const link = createQuestLink(quest);
         parentElement.appendChild(link);
     }
 }

@@ -15,7 +15,9 @@ const api = {
     getQuests() {
         return quests;
     },
-    getQuest(quests, id) {
+    getQuest(id) {
+        // use the other api method to get quests
+        const quests = api.getQuests();
         for(let i = 0; i < quests.length; i++) {
             const quest = quests[i];
             if(quest.id === id) {

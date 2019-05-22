@@ -31,9 +31,14 @@ questForm.addEventListener('submit', (event) => {
     const formData = new FormData(questForm);
 
     const choiceId = formData.get('choice');
+    // You're misusing the api.getQuest method here.
+    // It is essentialy a "findById" type functionality.
+    // But you don't need the choice, just the id...
     const choice = api.getQuest(quest.choices, choiceId);
 
     const session = api.getStars();
+    // So better off changing scoreQuest to just take the choiceId
+    // since you are not using any additional choice info 
     scoreQuest(session, questId, choice);
     api.setStars(session);
     questForm.classList.add('hidden');
