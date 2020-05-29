@@ -21,3 +21,5 @@ test('has completed all quests', function(assert) {
     const result = hasCompletedAllQuests(quests, session);
     assert.equal(result, true);
 });
+
+// include a false test!
